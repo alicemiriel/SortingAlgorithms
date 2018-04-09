@@ -2,6 +2,7 @@ package com.sda.sorting;
 
 public class InsertionSort {
     public static void sort(int[] tablica) {
+
         for (int i = 0; i < tablica.length; i++) {
             int key = tablica[i];
             int j = i - 1;
